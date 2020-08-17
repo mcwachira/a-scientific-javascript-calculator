@@ -1,0 +1,103 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html    {
+    font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-size: 2.5rem;
+    background-color: #e6d9f1;
+}
+
+.container {
+    background: linear-gradient(to right bottom, #5024ee, #25bae7);
+    width: 1000px;
+    height: 800px;
+    margin: 10px auto;
+}
+
+.calculator {
+background-color: #dfecf5;
+width: 360px;
+height: 650px;
+position: absolute;
+top:40px;
+left: 40%;
+border-radius:6px;
+}
+
+.display{
+    text-align: right;
+    padding: 10px;
+    height: 100px;
+    border-bottom: 1px solid #000;
+}
+
+.current  {
+height: 90px;
+font-size: 3rem;
+}
+
+.previous  {
+    height: 60px;
+   font-size:  2.5rem;
+  margin-bottom: -15px;
+}
+
+.keys   {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   grid-gap: 2.5rem;
+   row-gap:1.5rem
+}
+button {
+  font-size: 2.8rem;
+  margin:10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+button:focus    {
+    outline: none;
+}
+.operator, .dot   {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:hover{
+    font-size: 2.3rem;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
+}
